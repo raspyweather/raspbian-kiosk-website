@@ -13,5 +13,9 @@ echo "@xset s noblank" >> /home/pi/.config/lxsession/LXDE-pi/autostart
 echo "@xset -dpms" >> /home/pi/.config/lxsession/LXDE-pi/autostart
 echo "@sh /home/pi/.config/lxsession/LXDE-pi/start.sh" >> /home/pi/.config/lxsession/LXDE-pi/autostart
 
+echo "now creating desktop config"
+echo "https://github.com/raspyweather/raspbian-kiosk-website" >>/home/pi/Desktop/url.txt
+echo "1" >>/home/pi/Desktop/url.txt
+
 echo "done, restarting."
 sudo shutdown -r now
