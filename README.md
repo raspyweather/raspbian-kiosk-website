@@ -1,7 +1,8 @@
 # Use Raspbian as Website display
 Ever wanted to show your awesome SPA Dashboard on a screen with almost no configuration effort?
 This is what you're searching. 
-0. Get a clean raspbian iamge
+
+1. Get a clean raspbian iamge
 0. use the default user
 0. run this script
 0. adjust the website url on the desktop
