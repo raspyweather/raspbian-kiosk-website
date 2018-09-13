@@ -1,6 +1,6 @@
 #!bin/bash
 echo "this script installs chromium and creates an autostart for the default installation of raspbian..."
-sudo apt install -y chromium-browser ttf-mscorefonts-installer unclutter x11-server-utils pv hdparm htop
+sudo apt install -y chromium-browser ttf-mscorefonts-installer unclutter x11-xserver-utils pv hdparm htop
 echo "Installation of packages finished. Now downloading newest version of the startscript"
 curl -o /home/pi/.config/lxsession/LXDE-pi https://raw.githubusercontent.com/raspyweather/raspbian-kiosk-website/master/start.sh
 echo "now setting up autostart config"
