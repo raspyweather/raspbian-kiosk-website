@@ -8,9 +8,6 @@ echo "now setting up autostart config"
 echo "@xscreensaver -no-splash" >> /etc/xdg/lxsession/LXDE-pi/autostart
 echo "@point-rpi" >> /etc/xdg/lxsession/LXDE-pi/autostart
 echo "@unclutter" >> /etc/xdg/lxsession/LXDE-pi/autostart
-echo "@xset s off" >> /etc/xdg/lxsession/LXDE-pi/autostart
-echo "@xset s noblank" >> /etc/xdg/lxsession/LXDE-pi/autostart
-echo "@xset -dpms" >> /etc/xdg/lxsession/LXDE-pi/autostart
 echo "@sh /etc/xdg/lxsession/LXDE-pi/start.sh" >> /etc/xdg/lxsession/LXDE-pi/autostart
 
 echo "now creating desktop config"
